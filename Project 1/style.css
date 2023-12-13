@@ -1,0 +1,173 @@
+.card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transform: scale(1.02);
+}
+
+.navbar {
+    background-color: bisque;
+}
+
+.row .card {
+  justify-content: center;
+}
+
+.form-btn:hover {
+    background-color: aquamarine;
+    color: darkgoldenrod;
+}
+
+
+
+.form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background: url(img/seoul.avif);
+    background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 25px;
+    padding: 30px 40px;
+  }
+
+  .wrapper h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .wrapper p{
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  }
+
+  
+
+
+.wrapper .btn:hover{
+    background: #9f9f9f;
+    color: white;
+  }
+  
+  .input-box input{
+     width: 100%;
+     height: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     border: 2px solid rgba(255, 255, 255, .2);
+     border-radius: 40px;
+     font-size: 16px;
+     color: #fff;
+     padding: 20px 45px 20px 20px;
+  }
+  
+  .input-box input::placeholder{
+    color: #fff;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  
+  .remember-forgot label input{
+  accent-color: #fff;
+  margin-right: 3px;
+  }
+
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 600;
+    
+  }
+
+  .wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+    margin-top: 10px;
+  }
+  
+  
+  .register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register-link p a:hover{
+    text-decoration:underline;
+  
+  }
+
+  .copyright {
+    background-color: bisque;
+    font-size: large;
+  }
+
+  .collapse a:hover {
+    background-color: palevioletred;
+  }
+
+  .video-ads {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .maps-app {
+    justify-content: center;
+    align-items: center;;
+  }
+
+
